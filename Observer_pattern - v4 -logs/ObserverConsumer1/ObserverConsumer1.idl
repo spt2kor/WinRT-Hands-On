@@ -1,0 +1,11 @@
+namespace ObserverConsumer1
+{
+     [default_interface]
+     runtimeclass ObserConsumer1
+     {
+        ObserConsumer1();
+
+        void Register(String cmdString );
+        void DeRegister(String cmdString);
+     }
+}

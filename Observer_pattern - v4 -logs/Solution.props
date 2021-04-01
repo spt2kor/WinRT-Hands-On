@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<IntDir>$(SolutionDir)..\Output\obj\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</IntDir>
+		<OutDir>$(SolutionDir)..\Output\bin\$(Platform)\$(Configuration)\</OutDir>
+		<GeneratedFilesDir>$(IntDir)Generated Files\</GeneratedFilesDir>
+	</PropertyGroup>
+</Project>

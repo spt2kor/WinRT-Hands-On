@@ -1,0 +1,58 @@
+namespace WinRTDLLObserver
+{
+     [default_interface]
+     runtimeclass PODData
+     {
+         PODData();
+
+         String m_msg;
+         String m_value;
+         Int16  m_status;
+     }
+
+     [default_interface]
+     runtimeclass EventToken
+     {
+        Int64  token_value{get; };
+        EventToken();
+        EventToken(Int64 tokenvalue);
+     }
+
+     delegate void UpdateOnDataChange(String cmdStr , WinRTDLLObserver.PODData data);
+
+     [default_interface]
+     runtimeclass MySubject
+     {
+        MySubject();
+
+        void NotifyAsyn(String cmdStr , WinRTDLLObserver.PODData myData);
+        
+     }
+
+     [default_interface]
+     runtimeclass MyObserver
+     {
+        MyObserver();
+
+        EventToken Register(String cmdString , UpdateOnDataChange func);
+
+        void DeRegister(String cmdString, EventToken token_value);
+
+     }
+
+
+     [default_interface]
+     runtimeclass MyObserverAutoRevoke
+     {
+        MyObserverAutoRevoke();
+
+        EventToken Register(String cmdString , UpdateOnDataChange func);
+        void DeRegister(String cmdString, EventToken token_value);
+
+        IMapView<String,EventToken> RegisterCmds(IVector<String> cmdStrings, UpdateOnDataChange func);
+        void DeRegisterCmds(IMapView<String, EventToken> reg_tokens);
+
+        void DeRegisterAll();
+     }
+
+}

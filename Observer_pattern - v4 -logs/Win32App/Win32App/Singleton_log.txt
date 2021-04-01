@@ -1,0 +1,23 @@
+Thu Apr  1 17:38:09 2021@22::DllMain()[22168] : starting App function
+Thu Apr  1 17:38:09 2021@31::winrt::WinRTDLLObserver::ObserverSingleton::NewInstance()[22168] :  Init Singleton: 
+Thu Apr  1 17:38:09 2021@10::winrt::WinRTDLLObserver::implementation::PODData::PODData()[22168] : PODData CTOR
+Thu Apr  1 17:38:09 2021@16::winrt::WinRTDLLObserver::implementation::MyObserver::Register()[22168] : reg@cmd:Show Number
+Thu Apr  1 17:38:09 2021@16::winrt::WinRTDLLObserver::implementation::MyObserver::Register()[22168] : reg@cmd:Show Grid
+Thu Apr  1 17:38:09 2021@42::winrt::WinRTDLLObserver::implementation::MyObserverAutoRevoke::RegisterCmds()[22168] : reg@cmd:Show Number
+Thu Apr  1 17:38:09 2021@42::winrt::WinRTDLLObserver::implementation::MyObserverAutoRevoke::RegisterCmds()[22168] : reg@cmd:Show Grid
+Thu Apr  1 17:38:09 2021@16::winrt::WinRTDLLObserver::implementation::MyObserver::Register()[22168] : reg@cmd:Show Number
+Thu Apr  1 17:38:09 2021@10::winrt::WinRTDLLObserver::implementation::PODData::PODData()[22168] : PODData CTOR
+Thu Apr  1 17:38:09 2021@17::winrt::WinRTDLLObserver::implementation::MySubject::NotifyAsyn()[22168] : Trigger@Show Number@Val=1
+Thu Apr  1 17:38:09 2021@10::winrt::WinRTDLLObserver::implementation::PODData::PODData()[22168] : PODData CTOR
+Thu Apr  1 17:38:09 2021@29::winrt::WinRTDLLObserver::implementation::PODData::operator =()[22168] : PODData operator=()
+Thu Apr  1 17:38:09 2021@14::winrt::WinRTDLLObserver::implementation::PODData::~PODData()[25096] : PODData DTOR
+Thu Apr  1 17:38:09 2021@17::winrt::WinRTDLLObserver::implementation::MySubject::NotifyAsyn()[22168] : Trigger@Show Grid@Val=2
+Thu Apr  1 17:38:09 2021@10::winrt::WinRTDLLObserver::implementation::PODData::PODData()[22168] : PODData CTOR
+Thu Apr  1 17:38:09 2021@29::winrt::WinRTDLLObserver::implementation::PODData::operator =()[22168] : PODData operator=()
+Thu Apr  1 17:38:09 2021@14::winrt::WinRTDLLObserver::implementation::PODData::~PODData()[25096] : PODData DTOR
+Thu Apr  1 17:38:10 2021@53::winrt::WinRTDLLObserver::implementation::MyObserverAutoRevoke::DeRegisterCmds()[22168] : Dereg@cmd:Show Grid
+Thu Apr  1 17:38:10 2021@53::winrt::WinRTDLLObserver::implementation::MyObserverAutoRevoke::DeRegisterCmds()[22168] : Dereg@cmd:Show Number
+Thu Apr  1 17:38:10 2021@23::winrt::WinRTDLLObserver::implementation::MyObserver::DeRegister()[22168] : Dereg@ccmd:Show Number
+Thu Apr  1 17:38:10 2021@23::winrt::WinRTDLLObserver::implementation::MyObserver::DeRegister()[22168] : Dereg@ccmd:Show Number
+Thu Apr  1 17:38:10 2021@23::winrt::WinRTDLLObserver::implementation::MyObserver::DeRegister()[22168] : Dereg@ccmd:Show Grid
+Thu Apr  1 17:38:10 2021@14::winrt::WinRTDLLObserver::implementation::PODData::~PODData()[22168] : PODData DTOR

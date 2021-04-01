@@ -1,0 +1,6 @@
+Thu Apr  1 17:38:09 2021@31::wWinMain()[22168] : starting main function
+Thu Apr  1 17:38:09 2021@9::ShowNumberCallback()[25096] : Obs1:Update:Show Number:Val=1
+Thu Apr  1 17:38:09 2021@17::CommonCmdCallback()[25096] : Obs2:AutoRevoke:UpdateShow Number:Val=1
+Thu Apr  1 17:38:09 2021@12::ShowGridCallback()[25096] : Obs1:Update:Show Grid:Val=2
+Thu Apr  1 17:38:09 2021@17::CommonCmdCallback()[25096] : Obs2:AutoRevoke:UpdateShow Grid:Val=2
+Thu Apr  1 17:38:10 2021@65::wWinMain()[22168] : closing main function
